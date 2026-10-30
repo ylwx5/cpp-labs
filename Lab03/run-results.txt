@@ -1,0 +1,112 @@
+[Ex01_Factorial]
+输入：无
+输出：
+5! is 120
+退出码：0
+
+[Ex02_Swap]
+输入：3 8
+输出：
+3 8
+8 3
+退出码：0
+
+[Ex03_OverloadTypes]
+输入：无
+输出：
+4
+5.5
+6
+退出码：0
+
+[Ex04_OverloadCount]
+输入：无
+输出：
+7
+12
+退出码：0
+
+[Ex05_DefaultArgument]
+输入：无
+输出：
+sum is:5050
+sum is:55
+退出码：0
+
+[Ex06_InlineMax]
+输入：-3 -8
+输出：
+The max is:-3
+退出码：0
+
+[Ex07_InlineCircle]
+输入：无
+输出：
+r=1 area=3.1416
+r=2 area=12.5664
+r=3 area=28.2744
+退出码：0
+
+[Task01_Divide]
+输入：7 2
+输出：
+3
+退出码：0
+
+[Task01_Divide]
+输入：7 0
+输出：
+-1
+退出码：0
+
+[Task02_Prime]
+输入：1
+输出：
+not prime
+退出码：0
+
+[Task02_Prime]
+输入：97
+输出：
+prime
+退出码：0
+
+[Task03_GcdLcm]
+输入：12 18
+输出：
+gcd=6 lcm=36
+退出码：0
+
+[Task03_GcdLcm]
+输入：0 0
+输出：
+gcd=0 lcm=0
+退出码：0
+
+[Task03_GcdLcm]
+输入：-12 18
+输出：
+gcd=6 lcm=36
+退出码：0
+
+[Task04_Fibonacci]
+输入：20
+输出：
+Input n (1-40): F(20)=6765
+退出码：0
+
+[Task05_Power]
+输入：2 2.5 -3
+输出：
+integer=0
+real=0.064
+integer base as real=0.125
+退出码：0
+
+[Task05_Power]
+输入：2 2.5 3
+输出：
+integer=8
+real=15.625
+integer base as real=8
+退出码：0

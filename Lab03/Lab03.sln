@@ -1,0 +1,66 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12324.72 oobinsiders
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex01_Factorial", "Ex01_Factorial\Ex01_Factorial.vcxproj", "{37037EDF-4DB1-5C48-867D-08B6CDE558B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex02_Swap", "Ex02_Swap\Ex02_Swap.vcxproj", "{ED3E3474-40F9-5DFA-B233-D1C5976B1ADF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex03_OverloadTypes", "Ex03_OverloadTypes\Ex03_OverloadTypes.vcxproj", "{2889F8F9-D69B-5069-B8E2-4752B331FF78}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex04_OverloadCount", "Ex04_OverloadCount\Ex04_OverloadCount.vcxproj", "{1F9D35E3-8150-546F-9168-E7BA7F81E487}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex05_DefaultArgument", "Ex05_DefaultArgument\Ex05_DefaultArgument.vcxproj", "{7E8E8709-B798-5842-9451-CBC8E9CE3E56}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex06_InlineMax", "Ex06_InlineMax\Ex06_InlineMax.vcxproj", "{0EB9C009-CA38-5A57-B030-8127BF760185}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex07_InlineCircle", "Ex07_InlineCircle\Ex07_InlineCircle.vcxproj", "{0D305EEB-32AD-5FEA-A67C-618D601747A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task01_Divide", "Task01_Divide\Task01_Divide.vcxproj", "{EDB8BBEB-12E3-58E5-B22A-E08E849F5CEC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task02_Prime", "Task02_Prime\Task02_Prime.vcxproj", "{9A22DFA2-22E6-529C-9C74-0B0F3D8B0F1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task03_GcdLcm", "Task03_GcdLcm\Task03_GcdLcm.vcxproj", "{552CCF9A-A2CA-5E3E-9C29-E5391A6B1D3E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task04_Fibonacci", "Task04_Fibonacci\Task04_Fibonacci.vcxproj", "{5D4FF999-5365-50AE-B388-DA5F39F00190}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task05_Power", "Task05_Power\Task05_Power.vcxproj", "{8BC51358-7EDF-52C1-BA84-9B517D86FC15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37037EDF-4DB1-5C48-867D-08B6CDE558B9}.Debug|x64.ActiveCfg = Debug|x64
+		{37037EDF-4DB1-5C48-867D-08B6CDE558B9}.Debug|x64.Build.0 = Debug|x64
+		{ED3E3474-40F9-5DFA-B233-D1C5976B1ADF}.Debug|x64.ActiveCfg = Debug|x64
+		{ED3E3474-40F9-5DFA-B233-D1C5976B1ADF}.Debug|x64.Build.0 = Debug|x64
+		{2889F8F9-D69B-5069-B8E2-4752B331FF78}.Debug|x64.ActiveCfg = Debug|x64
+		{2889F8F9-D69B-5069-B8E2-4752B331FF78}.Debug|x64.Build.0 = Debug|x64
+		{1F9D35E3-8150-546F-9168-E7BA7F81E487}.Debug|x64.ActiveCfg = Debug|x64
+		{1F9D35E3-8150-546F-9168-E7BA7F81E487}.Debug|x64.Build.0 = Debug|x64
+		{7E8E8709-B798-5842-9451-CBC8E9CE3E56}.Debug|x64.ActiveCfg = Debug|x64
+		{7E8E8709-B798-5842-9451-CBC8E9CE3E56}.Debug|x64.Build.0 = Debug|x64
+		{0EB9C009-CA38-5A57-B030-8127BF760185}.Debug|x64.ActiveCfg = Debug|x64
+		{0EB9C009-CA38-5A57-B030-8127BF760185}.Debug|x64.Build.0 = Debug|x64
+		{0D305EEB-32AD-5FEA-A67C-618D601747A1}.Debug|x64.ActiveCfg = Debug|x64
+		{0D305EEB-32AD-5FEA-A67C-618D601747A1}.Debug|x64.Build.0 = Debug|x64
+		{EDB8BBEB-12E3-58E5-B22A-E08E849F5CEC}.Debug|x64.ActiveCfg = Debug|x64
+		{EDB8BBEB-12E3-58E5-B22A-E08E849F5CEC}.Debug|x64.Build.0 = Debug|x64
+		{9A22DFA2-22E6-529C-9C74-0B0F3D8B0F1F}.Debug|x64.ActiveCfg = Debug|x64
+		{9A22DFA2-22E6-529C-9C74-0B0F3D8B0F1F}.Debug|x64.Build.0 = Debug|x64
+		{552CCF9A-A2CA-5E3E-9C29-E5391A6B1D3E}.Debug|x64.ActiveCfg = Debug|x64
+		{552CCF9A-A2CA-5E3E-9C29-E5391A6B1D3E}.Debug|x64.Build.0 = Debug|x64
+		{5D4FF999-5365-50AE-B388-DA5F39F00190}.Debug|x64.ActiveCfg = Debug|x64
+		{5D4FF999-5365-50AE-B388-DA5F39F00190}.Debug|x64.Build.0 = Debug|x64
+		{8BC51358-7EDF-52C1-BA84-9B517D86FC15}.Debug|x64.ActiveCfg = Debug|x64
+		{8BC51358-7EDF-52C1-BA84-9B517D86FC15}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35199E8C-D7E4-4CFB-878F-40434BB6D0DC}
+	EndGlobalSection
+EndGlobal
