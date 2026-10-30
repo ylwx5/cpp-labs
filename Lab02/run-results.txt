@@ -1,0 +1,349 @@
+Ex01_ReadInteger INPUT='3\n8\n' EXIT=0
+Please enter the radius!
+
+The radius is:3
+
+PI is:3.14
+
+Please enter a different radius!
+
+Now the radius is changed to:8
+
+
+Ex02_Constant INPUT='3\n8\n' EXIT=0
+Please enter the radius!
+
+The radius is:3
+
+PI is:3.14159
+
+Please enter a different radius!
+
+Now the radius is changed to:8
+
+PI is still:3.14159
+
+
+Ex03_Initialize INPUT='8\n' EXIT=0
+The initial radius is:0
+
+PI is:3.14159
+
+Please enter a different radius!
+
+Now the radius is changed to:8
+
+PI is still:3.14159
+
+
+Ex04_IntegerConversion INPUT='' EXIT=0
+Short int is:-15536
+
+Short unsigned int is: 50000
+
+
+Ex05_IntegerLimits INPUT='' EXIT=0
+Min of short is: -32768
+
+Max of short is: 32767
+
+Min of int is: -2147483648
+
+Max of int is: 2147483647
+
+Min of long is: -2147483648
+
+Max of long is: 2147483647
+
+Max of unsigned short is: 65535
+
+Max of unsigned int is: 4294967295
+
+Max of unsigned long is: 4294967295
+
+
+Ex06_NumberBases INPUT='123 173 7b\n' EXIT=0
+123;173;7b
+
+123;173;7b
+
+123;173;7b
+
+123;173;7b
+
+4294967295;37777777777;ffffffff
+
+
+Ex07_FloatingPoint INPUT='' EXIT=0
+nAreaFloat = 95.0332 , sizeof(nAreaFloat) = 4
+
+nAreaDouble = 95.0332 , sizeof(nAreaDouble) = 8
+
+nAreaLDouble = 95.0332 , sizeof(nAreaLDouble) = 8
+
+
+Ex08_Characters INPUT='' EXIT=0
+A a
+
+one	two	three
+
+12345
+
+Alert
+
+
+Ex09_Boolean INPUT='' EXIT=0
+bool value bV1 = 1
+
+bool value bV2 = 0
+
+int value nV1 = 1
+
+bool value bV1 = 0
+
+
+Ex10_Arithmetic INPUT='' EXIT=0
+int/int, 24/5= 4
+
+int/int, 24%5= 4
+
+int/int, 24%(-5)= 4
+
+double/double, 24/5= 4.8
+
+double/int, 24/5= -4.8
+
+int/double, 24/5= 4.8
+
+val1 = 5
+
+5, 7, 7, 5
+
+val1 = 5
+
+5, 7, 7, 5
+
+
+Ex11_Assignment INPUT='' EXIT=0
+ival1= 1
+
+ival2= 2
+
+ival1= 97
+
+ival2= 0
+
+fval= 0
+
+cval= a
+
+ival3= 8
+
+fval= 8
+
+ival1 = 97, ival2 = 0
+
+ival2 = -ival1++, ival1= 98, ival2 = -97
+
+ival1 = ++ival2+ival1, ival1= 2
+
+
+Ex12_Comparison INPUT='' EXIT=0
+Is 1 equals 2?: 0
+
+Is 1less than 2?: 1
+
+Is 1less than 2 and 3 less than 4: 1
+
+
+Ex13_Sizeof INPUT='' EXIT=0
+sizeof(short)= 2
+
+sizeof(unsigned short)= 2
+
+sizeof(int)= 4
+
+sizeof(unsigned int)= 4
+
+sizeof(long)= 4
+
+sizeof(unsigned long)= 4
+
+sizeof(float)= 4
+
+sizeof(double)= 8
+
+sizeof(long double)= 8
+
+sizeof(char)= 1
+
+
+Ex14_Bitwise INPUT='' EXIT=0
+~15 = -16
+
+15 & 21 = 5
+
+15 ^ 21 = 26
+
+15 | 21 = 31
+
+nTest = 9
+
+After set the position 4 to 1, nTest = 25
+
+After set the position 4 to 0, nTest = 9
+
+After flip, nTest = 65526
+
+
+Task01_Bonus INPUT='0' EXIT=0
+Enter monthly profit (yuan): Bonus: 0.00 yuan
+
+
+Task01_Bonus INPUT='100000' EXIT=0
+Enter monthly profit (yuan): Bonus: 10000.00 yuan
+
+
+Task01_Bonus INPUT='200000' EXIT=0
+Enter monthly profit (yuan): Bonus: 17500.00 yuan
+
+
+Task01_Bonus INPUT='400000' EXIT=0
+Enter monthly profit (yuan): Bonus: 27500.00 yuan
+
+
+Task01_Bonus INPUT='600000' EXIT=0
+Enter monthly profit (yuan): Bonus: 33500.00 yuan
+
+
+Task01_Bonus INPUT='1000000' EXIT=0
+Enter monthly profit (yuan): Bonus: 39500.00 yuan
+
+
+Task01_Bonus INPUT='1100000' EXIT=0
+Enter monthly profit (yuan): Bonus: 40500.00 yuan
+
+
+Task02_Movie INPUT='0' EXIT=0
+请输入电影评分（0~10整数）：你认为电影烂片
+
+
+Task02_Movie INPUT='5' EXIT=0
+请输入电影评分（0~10整数）：你认为电影一般
+
+
+Task02_Movie INPUT='7' EXIT=0
+请输入电影评分（0~10整数）：你认为电影非常好
+
+
+Task02_Movie INPUT='9' EXIT=0
+请输入电影评分（0~10整数）：你认为电影经典
+
+
+Task02_Movie INPUT='10' EXIT=0
+请输入电影评分（0~10整数）：你认为电影经典
+
+
+Task02_Movie INPUT='11' EXIT=1
+请输入电影评分（0~10整数）：评分无效
+
+
+Task03_Palindrome INPUT='121' EXIT=0
+Enter an integer: Palindrome
+
+
+Task03_Palindrome INPUT='123' EXIT=0
+Enter an integer: Not a palindrome
+
+
+Task03_Palindrome INPUT='-121' EXIT=0
+Enter an integer: Not a palindrome
+
+
+Task03_Palindrome INPUT='0' EXIT=0
+Enter an integer: Palindrome
+
+
+Task04_Armstrong INPUT='153' EXIT=0
+Enter a three-digit integer: Armstrong number
+
+All three-digit Armstrong numbers: 153 370 371 407 
+
+
+Task05_Series INPUT='3 2' EXIT=0
+Enter n and digit a (1..9): 2 + 22 + 222
+
+Sum: 246
+
+
+Task05_Series INPUT='20 9' EXIT=1
+Enter n and digit a (1..9): 9 + 99 + 999 + 9999 + 99999 + 999999 + 9999999 + 99999999 + 999999999 + 9999999999 + 99999999999 + 999999999999 + 9999999999999 + 99999999999999 + 999999999999999 + 9999999999999999 + 99999999999999999 + 999999999999999999 + 9999999999999999999 + Result exceeds integer range
+
+
+Task06_Multiplication INPUT='' EXIT=0
+1*1= 1  
+
+1*2= 2  2*2= 4  
+
+1*3= 3  2*3= 6  3*3= 9  
+
+1*4= 4  2*4= 8  3*4=12  4*4=16  
+
+1*5= 5  2*5=10  3*5=15  4*5=20  5*5=25  
+
+1*6= 6  2*6=12  3*6=18  4*6=24  5*6=30  6*6=36  
+
+1*7= 7  2*7=14  3*7=21  4*7=28  5*7=35  6*7=42  7*7=49  
+
+1*8= 8  2*8=16  3*8=24  4*8=32  5*8=40  6*8=48  7*8=56  8*8=64  
+
+1*9= 9  2*9=18  3*9=27  4*9=36  5*9=45  6*9=54  7*9=63  8*9=72  9*9=81  
+
+
+Task07_Rabbits INPUT='' EXIT=0
+Month	Pairs	Rabbits
+
+1	1	2
+
+2	1	2
+
+3	2	4
+
+4	3	6
+
+5	5	10
+
+6	8	16
+
+7	13	26
+
+8	21	42
+
+9	34	68
+
+10	55	110
+
+11	89	178
+
+12	144	288
+
+13	233	466
+
+14	377	754
+
+15	610	1220
+
+16	987	1974
+
+17	1597	3194
+
+18	2584	5168
+
+19	4181	8362
+
+20	6765	13530
+
+
+Task08_Peaches INPUT='' EXIT=0
+Peaches picked on day 1: 1534
+
