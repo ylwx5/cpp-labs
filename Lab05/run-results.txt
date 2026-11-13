@@ -1,0 +1,56 @@
+[Ex01_StaticData] exit=0
+a=1
+s=1
+a=1
+s=2
+a=1
+s=3
+
+[Ex02_StudentCount] exit=0
+Student1 count=1
+----------
+Student1 count=2
+Student2 count=2
+----------
+Student1 count=3
+Student2 count=3
+Student3 count=3
+----------
+Student1 count=4
+Student2 count=4
+Student3 count=4
+Student4 count=4
+
+[Ex03_StaticFunction] exit=0
+s=1
+a=1
+a=1
+s=4
+s=5
+a=1
+s=7
+
+[Task01_Scope] exit=0
+x from main: 5
+y from main: 7
+x from myFunction: 5
+y from myFunction: 10
+
+Back from myFunction!
+
+x from main: 5
+y from main: 7
+
+[Task02_Cat] exit=0
+Before construction: 0
+After first cat: 1
+After copy construction: 2
+After assignment: 2
+After inner scope: 1
+After outer scope: 0
+
+[Task03_Friends] exit=0
+Initial: 0
+After Y::g: 1
+After Z::f: 6
+After h: 16

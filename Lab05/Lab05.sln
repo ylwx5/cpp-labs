@@ -1,0 +1,33 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex01_StaticData", "Ex01_StaticData\Ex01_StaticData.vcxproj", "{C29B9FBC-E703-47D1-B280-6E554504A699}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex02_StudentCount", "Ex02_StudentCount\Ex02_StudentCount.vcxproj", "{E05D78DD-48C4-4366-84EA-36698E85DB9D}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex03_StaticFunction", "Ex03_StaticFunction\Ex03_StaticFunction.vcxproj", "{569035CD-6C51-4AFF-A672-17D49934AF43}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Task01_Scope", "Task01_Scope\Task01_Scope.vcxproj", "{70129200-A26A-4F45-9F9C-7A576DD1ACCF}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Task02_Cat", "Task02_Cat\Task02_Cat.vcxproj", "{483636EE-6EB3-496A-9471-6C6D395C29AE}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Task03_Friends", "Task03_Friends\Task03_Friends.vcxproj", "{974C57EA-F09B-4A34-AA63-38791DBC3A83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C29B9FBC-E703-47D1-B280-6E554504A699}.Debug|x64.ActiveCfg = Debug|x64
+		{C29B9FBC-E703-47D1-B280-6E554504A699}.Debug|x64.Build.0 = Debug|x64
+		{E05D78DD-48C4-4366-84EA-36698E85DB9D}.Debug|x64.ActiveCfg = Debug|x64
+		{E05D78DD-48C4-4366-84EA-36698E85DB9D}.Debug|x64.Build.0 = Debug|x64
+		{569035CD-6C51-4AFF-A672-17D49934AF43}.Debug|x64.ActiveCfg = Debug|x64
+		{569035CD-6C51-4AFF-A672-17D49934AF43}.Debug|x64.Build.0 = Debug|x64
+		{70129200-A26A-4F45-9F9C-7A576DD1ACCF}.Debug|x64.ActiveCfg = Debug|x64
+		{70129200-A26A-4F45-9F9C-7A576DD1ACCF}.Debug|x64.Build.0 = Debug|x64
+		{483636EE-6EB3-496A-9471-6C6D395C29AE}.Debug|x64.ActiveCfg = Debug|x64
+		{483636EE-6EB3-496A-9471-6C6D395C29AE}.Debug|x64.Build.0 = Debug|x64
+		{974C57EA-F09B-4A34-AA63-38791DBC3A83}.Debug|x64.ActiveCfg = Debug|x64
+		{974C57EA-F09B-4A34-AA63-38791DBC3A83}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+EndGlobal
