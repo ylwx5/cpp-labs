@@ -1,0 +1,8 @@
+2026-1-1	#test created
+2026-1-2	#test	100	100	deposit
+Error(#test): not enough money
+Error(#test): invalid deposit
+Error(#test): invalid deposit
+2027-1-1	#test	1.5	101.5	interest
+Error(#test): invalid settlement date
+Bank boundary checks passed

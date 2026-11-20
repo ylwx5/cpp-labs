@@ -1,0 +1,14 @@
+[Ex09_FunctionPointerSort] breakpoint main.cpp line 11
+i = 0
+selected = 0
+compare = 0x00007ff7229e1023 {Ex09_FunctionPointerSort.exe!ascending(int,int)}
+values[0] = 2
+values[1] = 6
+values[2] = 4
+After Step Over
+i = 0
+selected = 未定义标识符 "selected"
+compare = 0x00007ff7229e1023 {Ex09_FunctionPointerSort.exe!ascending(int,int)}
+values[0] = 2
+values[1] = 6
+values[2] = 4

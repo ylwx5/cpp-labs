@@ -1,0 +1,73 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex01_LocalArrays", "Ex01_LocalArrays\Ex01_LocalArrays.vcxproj", "{2812E291-EE7E-5942-A973-97C15EFD90F1}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex02_ArrayParameters", "Ex02_ArrayParameters\Ex02_ArrayParameters.vcxproj", "{CB2E13AC-833F-5D0A-B88B-C0DBD1A39EC9}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex03_ConstArray", "Ex03_ConstArray\Ex03_ConstArray.vcxproj", "{B01CC9DA-8722-5CD0-8A2B-AD06A0737DC7}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex04_GradeBook1D", "Ex04_GradeBook1D\Ex04_GradeBook1D.vcxproj", "{91DC5242-6125-5AA3-A0C2-584A7562D0A2}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex05_GradeBook2D", "Ex05_GradeBook2D\Ex05_GradeBook2D.vcxproj", "{C0FA5DD5-EEBB-5F50-A7D5-C76964695261}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex06_PointerArithmetic", "Ex06_PointerArithmetic\Ex06_PointerArithmetic.vcxproj", "{FBBB8BF3-2920-5F6A-B8AF-7DFBDEAEC2FC}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex07_ConstPointers", "Ex07_ConstPointers\Ex07_ConstPointers.vcxproj", "{A09771A2-ED88-5FCA-AA6F-6546C9936ABD}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex08_SelectionSort", "Ex08_SelectionSort\Ex08_SelectionSort.vcxproj", "{336961E4-EAB4-5716-B5F3-E4938779BC19}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex09_FunctionPointerSort", "Ex09_FunctionPointerSort\Ex09_FunctionPointerSort.vcxproj", "{3F54485B-0E82-571E-A120-21DB2CC68FBB}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Ex10_BankAccounts", "Ex10_BankAccounts\Ex10_BankAccounts.vcxproj", "{195E712D-31AB-5C35-AC9D-21E5A8338840}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Task01_UninitializedPointer", "Task01_UninitializedPointer\Task01_UninitializedPointer.vcxproj", "{F344269E-5F25-590C-990E-0C2EAFC165A3}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Task02_MemoryLeak", "Task02_MemoryLeak\Task02_MemoryLeak.vcxproj", "{B6BDBD58-2A12-5038-B158-3709660C1365}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Task03_SimpleCircle", "Task03_SimpleCircle\Task03_SimpleCircle.vcxproj", "{47BDAFE1-4DAB-5A82-BB53-20B2A03F4E77}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Task04_CountLetters", "Task04_CountLetters\Task04_CountLetters.vcxproj", "{3069A18A-868A-5B00-B9C6-0FAFBDC5BE80}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Task05_RecursiveReverse", "Task05_RecursiveReverse\Task05_RecursiveReverse.vcxproj", "{718E6AA2-997E-5D74-A833-224B9A9D1790}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Task06_PointerSafety", "Task06_PointerSafety\Task06_PointerSafety.vcxproj", "{E8433D64-0188-52E6-9EFF-23D1BDED0F99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2812E291-EE7E-5942-A973-97C15EFD90F1}.Debug|x64.ActiveCfg = Debug|x64
+		{2812E291-EE7E-5942-A973-97C15EFD90F1}.Debug|x64.Build.0 = Debug|x64
+		{CB2E13AC-833F-5D0A-B88B-C0DBD1A39EC9}.Debug|x64.ActiveCfg = Debug|x64
+		{CB2E13AC-833F-5D0A-B88B-C0DBD1A39EC9}.Debug|x64.Build.0 = Debug|x64
+		{B01CC9DA-8722-5CD0-8A2B-AD06A0737DC7}.Debug|x64.ActiveCfg = Debug|x64
+		{B01CC9DA-8722-5CD0-8A2B-AD06A0737DC7}.Debug|x64.Build.0 = Debug|x64
+		{91DC5242-6125-5AA3-A0C2-584A7562D0A2}.Debug|x64.ActiveCfg = Debug|x64
+		{91DC5242-6125-5AA3-A0C2-584A7562D0A2}.Debug|x64.Build.0 = Debug|x64
+		{C0FA5DD5-EEBB-5F50-A7D5-C76964695261}.Debug|x64.ActiveCfg = Debug|x64
+		{C0FA5DD5-EEBB-5F50-A7D5-C76964695261}.Debug|x64.Build.0 = Debug|x64
+		{FBBB8BF3-2920-5F6A-B8AF-7DFBDEAEC2FC}.Debug|x64.ActiveCfg = Debug|x64
+		{FBBB8BF3-2920-5F6A-B8AF-7DFBDEAEC2FC}.Debug|x64.Build.0 = Debug|x64
+		{A09771A2-ED88-5FCA-AA6F-6546C9936ABD}.Debug|x64.ActiveCfg = Debug|x64
+		{A09771A2-ED88-5FCA-AA6F-6546C9936ABD}.Debug|x64.Build.0 = Debug|x64
+		{336961E4-EAB4-5716-B5F3-E4938779BC19}.Debug|x64.ActiveCfg = Debug|x64
+		{336961E4-EAB4-5716-B5F3-E4938779BC19}.Debug|x64.Build.0 = Debug|x64
+		{3F54485B-0E82-571E-A120-21DB2CC68FBB}.Debug|x64.ActiveCfg = Debug|x64
+		{3F54485B-0E82-571E-A120-21DB2CC68FBB}.Debug|x64.Build.0 = Debug|x64
+		{195E712D-31AB-5C35-AC9D-21E5A8338840}.Debug|x64.ActiveCfg = Debug|x64
+		{195E712D-31AB-5C35-AC9D-21E5A8338840}.Debug|x64.Build.0 = Debug|x64
+		{F344269E-5F25-590C-990E-0C2EAFC165A3}.Debug|x64.ActiveCfg = Debug|x64
+		{F344269E-5F25-590C-990E-0C2EAFC165A3}.Debug|x64.Build.0 = Debug|x64
+		{B6BDBD58-2A12-5038-B158-3709660C1365}.Debug|x64.ActiveCfg = Debug|x64
+		{B6BDBD58-2A12-5038-B158-3709660C1365}.Debug|x64.Build.0 = Debug|x64
+		{47BDAFE1-4DAB-5A82-BB53-20B2A03F4E77}.Debug|x64.ActiveCfg = Debug|x64
+		{47BDAFE1-4DAB-5A82-BB53-20B2A03F4E77}.Debug|x64.Build.0 = Debug|x64
+		{3069A18A-868A-5B00-B9C6-0FAFBDC5BE80}.Debug|x64.ActiveCfg = Debug|x64
+		{3069A18A-868A-5B00-B9C6-0FAFBDC5BE80}.Debug|x64.Build.0 = Debug|x64
+		{718E6AA2-997E-5D74-A833-224B9A9D1790}.Debug|x64.ActiveCfg = Debug|x64
+		{718E6AA2-997E-5D74-A833-224B9A9D1790}.Debug|x64.Build.0 = Debug|x64
+		{E8433D64-0188-52E6-9EFF-23D1BDED0F99}.Debug|x64.ActiveCfg = Debug|x64
+		{E8433D64-0188-52E6-9EFF-23D1BDED0F99}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+EndGlobal

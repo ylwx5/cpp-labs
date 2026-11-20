@@ -1,0 +1,26 @@
+[Ex08_SelectionSort] breakpoint main.cpp line 11
+i = 1
+selected = 2
+values[0] = 2
+values[1] = 6
+values[2] = 4
+values[3] = 8
+values[4] = 10
+After Step Over
+i = 1
+selected = 未定义标识符 "selected"
+values[0] = 2
+values[1] = 4
+values[2] = 6
+values[3] = 8
+values[4] = 10
+[Ex10_BankAccounts] breakpoint account.cpp line 20
+amount = 5000.0000000000000
+this->balance = 5000.0000000000000
+total = 0.0000000000000000
+accumulation = 0.0000000000000000
+After Step Over
+amount = 5000.0000000000000
+this->balance = 5000.0000000000000
+total = 5000.0000000000000
+accumulation = 0.0000000000000000

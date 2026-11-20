@@ -1,0 +1,8 @@
+invalid.cpp
+Lab06\Ex03_ConstArray\invalid.cpp(1): error C3892: “values”: 赋值给类型为 'const int []' 的常量限定 变量
+invalid_both.cpp
+Lab06\Ex07_ConstPointers\invalid_both.cpp(1): error C3892: “p”: 赋值给类型为 'const int *const ' 的常量限定 变量
+invalid_pointee.cpp
+Lab06\Ex07_ConstPointers\invalid_pointee.cpp(1): error C3892: “p”: 赋值给类型为 'const int *' 的常量限定 变量
+invalid_pointer.cpp
+Lab06\Ex07_ConstPointers\invalid_pointer.cpp(1): error C3892: “p”: 赋值给类型为 'int *const ' 的常量限定 变量

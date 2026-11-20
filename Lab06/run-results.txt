@@ -1,0 +1,171 @@
+[Ex01_LocalArrays / default] exit=0
+input=''
+Call 1
+static: 0 0 0 -> 5 5 5 
+automatic: 1 2 3 -> 6 7 8 
+Call 2
+static: 5 5 5 -> 10 10 10 
+automatic: 1 2 3 -> 6 7 8 
+
+[Ex02_ArrayParameters / default] exit=0
+input=''
+0 2 4 6 8 
+Inside modifyElement: 12
+values[3]: 6
+
+[Ex03_ConstArray / default] exit=0
+input=''
+10 20 30 
+10 20 30 
+
+[Ex04_GradeBook1D / default] exit=0
+input=''
+CS101 Introduction to C++ Programming
+Student 1: 87
+Student 2: 68
+Student 3: 94
+Student 4: 100
+Student 5: 83
+Student 6: 78
+Student 7: 85
+Student 8: 91
+Student 9: 76
+Student 10: 87
+Minimum=68 Maximum=100 Average=84.90
+0-9: 
+10-19: 
+20-29: 
+30-39: 
+40-49: 
+50-59: 
+60-69: *
+70-79: **
+80-89: ****
+90-99: **
+100: *
+
+[Ex05_GradeBook2D / default] exit=0
+input=''
+CS101 Introduction to C++ Programming
+Student 1: 87 96 70 average=84.33
+Student 2: 68 87 90 average=81.67
+Student 3: 94 100 90 average=94.67
+Student 4: 100 81 82 average=87.67
+Student 5: 83 65 85 average=77.67
+Student 6: 78 87 65 average=76.67
+Student 7: 85 75 83 average=81.00
+Student 8: 91 94 100 average=95.00
+Student 9: 76 72 84 average=77.33
+Student 10: 87 93 73 average=84.33
+Minimum=65 Maximum=100 Average=84.03
+0-9: 
+10-19: 
+20-29: 
+30-39: 
+40-49: 
+50-59: 
+60-69: ***
+70-79: ******
+80-89: ***********
+90-99: *******
+100: ***
+
+[Ex06_PointerArithmetic / default] exit=0
+input=''
+short increment: 1 value=65
+short decrement: 0 value=84
+short difference: 4
+long step bytes: 4
+long difference: 2
+
+[Ex07_ConstPointers / default] exit=0
+input=''
+1 2 3 4 5 6 
+9 7 7
+
+[Ex08_SelectionSort / default] exit=0
+input=''
+2 6 4 8 10 12 89 68 45 37 
+2 4 6 8 10 12 37 45 68 89 
+
+[Ex09_FunctionPointerSort / default] exit=0
+input='1\n'
+Enter 1 for ascending, 2 for descending: 2 4 6 8 10 12 37 45 68 89 
+
+[Ex10_BankAccounts / default] exit=0
+input=''
+2008-11-1	#03755217 created
+2008-11-1	#02342342 created
+2008-11-5	#03755217	5000	5000	salary
+2008-11-25	#02342342	10000	10000	sell stock 0323
+2008-12-5	#03755217	5500	10500	salary
+2008-12-20	#02342342	-4000	6000	buy a laptop
+2009-1-1	#03755217	17.77	10517.8	interest
+03755217	Balance: 10517.8
+2009-1-1	#02342342	13.2	6013.2	interest
+02342342	Balance: 6013.2
+Total: 16531
+
+[Task01_UninitializedPointer / default] exit=0
+input=''
+the value at p: 9
+
+[Task02_MemoryLeak / default] exit=0
+input=''
+the value of a is: 5
+
+[Task03_SimpleCircle / default] exit=0
+input=''
+3 5 5
+28.27 18.85
+zero area: 0.00
+negative radius rejected
+
+[Task04_CountLetters / default] exit=0
+input='Hello, C++ 2026!\n'
+6
+
+[Task05_RecursiveReverse / default] exit=0
+input='Hello C++\n'
+++C olleH
+
+[Task06_PointerSafety / default] exit=0
+input=''
+double representation bytes: 8
+5 2 3 
+
+[Ex09_FunctionPointerSort / descending] exit=0
+input='2\n'
+Enter 1 for ascending, 2 for descending: 89 68 45 37 12 10 8 6 4 2 
+
+[Task04_CountLetters / ''] exit=0
+input=''
+0
+
+[Task04_CountLetters / '123 !?\n'] exit=0
+input='123 !?\n'
+0
+
+[Task04_CountLetters / 'Aa Zz\n'] exit=0
+input='Aa Zz\n'
+4
+
+[Task05_RecursiveReverse / ''] exit=0
+input='\n'
+
+
+[Task05_RecursiveReverse / 'a'] exit=0
+input='a\n'
+a
+
+[Task05_RecursiveReverse / 'ab'] exit=0
+input='ab\n'
+ba
+
+[Task05_RecursiveReverse / 'abc'] exit=0
+input='abc\n'
+cba
+
+[Task05_RecursiveReverse / 'a b c'] exit=0
+input='a b c\n'
+c b a
